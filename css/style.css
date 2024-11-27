@@ -1,0 +1,11 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header {
+    /* debug */
+    background-color: rgb(78, 197, 240);
+    height: 120px;
+    border: 1px solid;
+}
