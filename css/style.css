@@ -3,9 +3,43 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* header */
 #header {
+    height: 70px;
+    width: 100%;
     /* debug */
     background-color: rgb(78, 197, 240);
-    height: 120px;
     border: 1px solid;
+    border-color: black;
+}
+/* jumbotron */
+#jumbo {
+    padding-top: 80px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* debug */
+    background-color: grey;
+}
+#jumbo-title {
+    height: 200px;
+    width: 100%;
+    /* debug */
+    border: 1px solid;
+    border-color: black;
+}
+#jumbo-desciption {
+    width: 35%;
+    height: 300px;
+    border: 1px solid;
+    border-color: black;
+}
+#jumbo-img {
+    width: 65%;
+    height: 300px;
+    border: 1px solid;
+    border-color: black;
 }
