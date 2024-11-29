@@ -127,7 +127,7 @@
 }
 /* ---------------- container1 ---------------- */
 
-#container1 {
+#container-top {
     padding-top: 50px;
     height: 1000px;
     width: 100%;
@@ -137,34 +137,34 @@
     flex-wrap: wrap;
 }
 /* ------- box-vertical ------- */
-.container1-box-vertical {
+.container-top-box-vertical {
     width: 30%;
     height: 900px;
     border: 1px solid;
     border-color: rgb(214, 213, 216);
 }
-.container1-box-vertical-head {
+.container-top-box-vertical-head {
     text-align: center;
     padding-top: 10px;
 }
-.container1-box-vertical-text {
+.container-top-box-vertical-text {
     padding-top: 30px;
     padding-left: 7%;
     padding-right: 7%;
     line-height: 40px;
 }
-.container1-box-vertical-list1 {
+.container-top-box-vertical-list {
     padding-top: 50px;
     line-height: 30px;
     padding-bottom: 40px;
     list-style: none;
 }
-.container1-box-vertical-list2 {
+.container-top-box-vertical-list-small {
     padding-top: 15px;
     line-height: 30px;
     padding-bottom: 50px;
 }
-.container1-box-vertical-link {
+.container-top-box-vertical-link {
     padding-top: 20px;
 }
 .space {
@@ -181,13 +181,13 @@
     width: 80px;
 }
 /* ------- box-horizontal ------- */
-#container1-box-horizontal {
+#container-top-box-horizontal {
     width: 100%;
     height: 200px;
     border: 1px solid;
     border-color: rgb(214, 213, 216);
 }
-#container1-box-horizontal-text {
+#container-top-box-horizontal-text {
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
@@ -198,27 +198,27 @@
 
 
 /* ---------------- container2 ---------------- */
-#container2 {
+#container-mid {
     margin-top: 300px;
     display: flex;
 }
-#container2-box-big {
+#container-mid-box-big {
     background-image: url(../img/partner.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 60%;
 }
-#container2-box-small {
+#container-mid-box-small {
     padding-top: 30px;
     /* debug */
     height: 400px;
     width: 40%;
 }
-#container2-box-small-text {
+#container-mid-box-small-text {
     padding-top: 30px;
     padding-bottom: 45px;
 }
-#container2-box-small-button {
+#container-mid-box-small-button {
     font-size: 17px;
     text-align: center;
     border: 1px solid;
@@ -228,12 +228,12 @@
 }
 
 /* ---------------- container3 ---------------- */
-#main-title2 {
+#main-title-mid{
     margin-top: 150px;
     font-size: 37px;
     height: 70px;
 }
-#container3 {
+#container-bottom {
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -241,17 +241,17 @@
     flex-wrap: wrap;
     height: 800px;
 }
-.container3-box {
+.container-bottom-box {
     display: flex;
     flex-direction: column;
     width: 30%;
     height: 400px;
 }
-.container3-box-title {
+.container-bottom-box-title {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#main-title3 {
+#main-title-bottom {
     margin-top: 150px;
     font-size: 45px;
     height: 200px;
@@ -264,7 +264,7 @@
     background-color: rgb(10, 10, 10);
 }
 /* ---------------- container4 ----------------  */
-#container4 {
+#container-footer {
     margin-left: 15%;
     margin-right: 15%;
     padding-top: 100px;
@@ -272,7 +272,7 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-.container4-box {
+.container-footer-box {
     width: 20%;
     margin-top: 40px;
     height: 300px;
@@ -280,10 +280,10 @@
     line-height: 40px;
     list-style: none;
 }
-.container4-box-list {
+.container-footer-box-list {
     list-style: none;
 }
-.space-small2 {
+.space-footer {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-right: 95%;
