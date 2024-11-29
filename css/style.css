@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* font */
+    font-family: "Open Sans";
+    list-style: none;
 }
    /* button */
 .button {
@@ -17,6 +20,27 @@
     max-width: 100%;
     max-height: 50px;
 }
+.button:hover {
+    border: 1px solid;
+    background-color: rgba(67, 67, 67, 0.258);
+    color: white;
+    width: 250px;
+    height: px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-width: 100%;
+    max-height: 50px;
+    
+}
+.icon {
+    padding-right: 7px;
+}
+.icon-blue {
+    padding-right: 7px;
+    color: rgb(0, 183, 255);
+    margin: 0;
+}
 .gray {
     color: rgb(149, 147, 147);
 }
@@ -25,10 +49,7 @@
 #header {
     height: 70px;
     width: 100%;
-    /* debug */
     background-color: rgb(255, 255, 255);
-    border: 1px solid;
-    border-color: black;
 }
 .logo {
     padding-top: 20px;
@@ -38,8 +59,6 @@
 }
 .header-li {
     display: inline-block;
-    /* border: 1px solid;
-    height: 70px; */
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -120,7 +139,7 @@
 /* ------- box-vertical ------- */
 .container1-box-vertical {
     width: 30%;
-    height: 800px;
+    height: 900px;
     border: 1px solid;
     border-color: rgb(214, 213, 216);
 }
@@ -141,10 +160,9 @@
     list-style: none;
 }
 .container1-box-vertical-list2 {
-    padding-top: 20px;
+    padding-top: 15px;
     line-height: 30px;
     padding-bottom: 50px;
-    list-style: none;
 }
 .container1-box-vertical-link {
     padding-top: 20px;
@@ -181,7 +199,7 @@
 
 /* ---------------- container2 ---------------- */
 #container2 {
-    margin-top: 200px;
+    margin-top: 300px;
     display: flex;
 }
 #container2-box-big {
@@ -204,7 +222,7 @@
     font-size: 17px;
     text-align: center;
     border: 1px solid;
-    width: 130px;
+    width: 145px;
     height: 50px;
     line-height: 45px;
 }
@@ -221,7 +239,6 @@
     justify-content: center;
     gap: 5%;
     flex-wrap: wrap;
-    /* debug */
     height: 800px;
 }
 .container3-box {
@@ -229,54 +246,56 @@
     flex-direction: column;
     width: 30%;
     height: 400px;
-    /* debug */
 }
 .container3-box-title {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 #main-title3 {
-    margin-top: 100px;
+    margin-top: 150px;
     font-size: 45px;
     height: 200px;
     width: 100%;
-    /* debug */
 }
 /* ---------------------  footer ---------------------  */
 #footer {
-    /* debug */
+    margin-top: 150px;
     height: 600px;
-    border: 2px solid;
-    border-color: rgb(58, 170, 164);
-    background-color: rgb(40, 40, 41);
+    background-color: rgb(10, 10, 10);
 }
 /* ---------------- container4 ----------------  */
 #container4 {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-top: 100px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* debug */
-    border: 2px solid;
-    background-color: rgb(118, 82, 82);
-    border-color: rgb(22, 23, 23);
 }
 .container4-box {
     width: 20%;
+    margin-top: 40px;
     height: 300px;
-    /* debug */
-    border: 2px solid;
-    background-color: brown;
-    border-color: rgb(22, 23, 23);
+    color: white;
+    line-height: 40px;
+    list-style: none;
+}
+.container4-box-list {
+    list-style: none;
+}
+.space-small2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 95%;
+    border: 0.5px solid;
+    border-color: rgb(214, 213, 216);
+    width: 80px;
+    padding-left: 
 }
 #language {
-    margin-top: 100px;
-    /* debug */
-    border: 2px solid;
-    background-color: rgb(31, 84, 122);
-    border-color: rgb(22, 23, 23);
+    margin-top: 15px;
+    margin-left: 15%;
+    color: rgb(124, 123, 123);
     height: 50px;
     width: 100%;
 }
